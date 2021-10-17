@@ -17,7 +17,7 @@ adicionar dir/arquivo
     git add - adicionar todos os arquivos/diretórios
 
 commitar
-    git commit meu_arqiovo.txt - commitar um arquivo
+    git commit meu_arquivo.txt - commitar um arquivo
 
     git commit meu_arqiovo.txt meu_outro_arquivo.txt - commmitar varios arquivos
 
