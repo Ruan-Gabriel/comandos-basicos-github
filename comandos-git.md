@@ -113,4 +113,12 @@ para atualizar commit feito no gitHUB{
     git pull - isso vai puxar as configurações feitas no gitHUB para a sua maquina
 }
 
+enviar alterações{
+    #1 clonar arquivo na maquina
+    #2 fazer alteração
+    #3 dar push para o repo no github
+    #4 fazer pull request para a pessoa no qual voce deu fork do repositorio
+    #5 esperar essa pessoa aceitar a sua alteração
+}
+
 --> Ruan-Gabriel
