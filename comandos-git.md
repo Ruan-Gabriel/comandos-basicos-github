@@ -106,5 +106,6 @@ clonando repositorio{
 algumas soluções para possiveis problemas{
     git remote add origin https://[hostname]/user/[repo].git - para adicionar um repositorio novo
         se já existir entao, tente isso:
+    
     git remote set-url https://user:token@[hostname]/user/[repo].git - serve para alterar o repo já existente.
 }
