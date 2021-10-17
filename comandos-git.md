@@ -109,3 +109,5 @@ algumas soluções para possiveis problemas{
     
     git remote set-url https://user:token@[hostname]/user/[repo].git - serve para alterar o repo já existente.
 }
+
+--> Ruan-Gabriel
