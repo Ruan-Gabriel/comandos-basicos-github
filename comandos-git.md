@@ -1,29 +1,29 @@
-comandos do github mais essenciais para iniciantes:
+comandos que EU (iniciante) mais usei:
 
 abra o terminal: ctrl+shift+` (user linux ou abra o git bash here)
 
 git help - ver comandos (também da pra ver comandos específicos, ex: git help add)
 
-*iniciar/encerrar repositorio*
+iniciar/encerrar repositorio
     git init - inicia um repositório
 
     rm -rf .git - para desfazer o git init
 
-*adicionar dir/arquivo*
+adicionar dir/arquivo
     git add meu_arquivo.txt - adicionar um arquivo específico
 
     git add meu_diretorio - adicionar um diretório específico
 
     git add - adicionar todos os arquivos/diretórios
 
-*commitar*
+commitar
     git commit meu_arqiovo.txt - commitar um arquivo
 
     git commit meu_arqiovo.txt meu_outro_arquivo.txt - commmitar varios arquivos
 
     git commit meu_arquivo.txt -m "estou adicionando tal função" - commitar com um comentário
 
-*exibição de histórico*
+exibição de histórico
     git log - exibir o histórico do que foi feito
 
     git log --stat - exibir histórico completo (quem postou, data...)
@@ -34,27 +34,27 @@ git help - ver comandos (também da pra ver comandos específicos, ex: git help 
         'M' significa modificado(M) e pode ser substituido por: adicionado(A), copiado(C), apagado(D), renomeado(r) entre outros. 
     )
 
-*repositorio remoto*
+repositorio remoto
     git remote - exibir repositórios remotos
 
     git remote add origin git@github.com:Ruan-Gabriel/learn-project.git - vincular um repositório local a um remoto
 
     git remote rm learn-project - desvincular repositório
 
-*enviar files/dir para repositiorio remoto*
+enviar files/dir para repositiorio remoto
     git push -u origin master - enviar arquivos para repositorio remoto (no primeiro push deve conter o nome do repositorio remoto e da branch)
 
     git push - mesma função do anterios (porém, agora não precisa mais especificar o repositorio e nem a branch)
 
-*atualizar repositório remoto*
+atualizar repositório remoto
     git pull - atualizar os arquivos na branch atual
 
     git fetch - buscar alterações mas não atualizar
 
-*clonar repositorio*
+clonar repositorio
     git clone git@github.com:leocomelli/curso-git.git - clonar um repositório ja existente na sua máquina
 
-*branches*
+branches
     O master é o branch principal do git
     o HEAD indica qual é a branch principal
 
@@ -78,7 +78,7 @@ git help - ver comandos (também da pra ver comandos específicos, ex: git help 
 
     git branch --no-merged - listando branch que não foram fundidos
 
-*criar/dell repositorios*
+criar/dell repositorios
     git push origin bug-123 - criar branch no repositorio remoto com o mesmo nome
 
     git push origin bug-123:new-branch - criar branch no repositorio remoto com nome diferente
@@ -87,7 +87,12 @@ git help - ver comandos (também da pra ver comandos específicos, ex: git help 
 
     git push origin:bug-123 - apagar branch remoto
 
-*clonando repositorio*
+clonando repositorio
     git clone <caminho do arquivo>
     cd  <nome da pasta>
     (depois disso, esta pronto para ser usado)
+
+alguns soluções para possiveis problemas
+    git remote add origin https://[hostname]/user/[repo].git - para adicionar um repositorio novo
+        se já existir entao tente isso:
+    git remote set-url https://user:token@[hostname]/user/[repo].git - serve para alterar o repo já existente.
