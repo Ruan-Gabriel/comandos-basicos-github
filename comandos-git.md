@@ -109,5 +109,8 @@ algumas soluções para possiveis problemas{
     
     git remote set-url https://user:token@[hostname]/user/[repo].git - serve para alterar o repo já existente.
 }
+para atualizar commit feito no gitHUB{
+    git pull - isso vai puxar as configurações feitas no gitHUB para a sua maquina
+}
 
 --> Ruan-Gabriel
