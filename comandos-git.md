@@ -113,7 +113,7 @@ para atualizar commit feito no gitHUB{
     git pull - isso vai puxar as configurações feitas no gitHUB para a sua maquina
 }
 
-enviar alterações{
+enviar alterações para alguém{
     #1 clonar arquivo na maquina
     #2 fazer alteração
     #3 dar push para o repo no github
